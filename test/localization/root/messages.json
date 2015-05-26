@@ -1,0 +1,6 @@
+{
+    "root": {
+        "key": "phrase",
+        "key2": "hello, {name}"
+    }
+}

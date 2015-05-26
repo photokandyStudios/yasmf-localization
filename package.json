@@ -13,6 +13,7 @@
     "cldr-data": "^27.0.5",
     "core-js": "^0.9.13",
     "globalize": "^1.0.0",
+    "locale2": "0.0.3-beta",
     "yasmf-emitter": "^0.1.5"
   },
   "peerDependencies": {},

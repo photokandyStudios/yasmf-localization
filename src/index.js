@@ -40,7 +40,7 @@ default class Localization extends Emitter {
     getDeviceLocale() {
         return new Promise((resolve, reject) => {
             if (typeof navigator !== "undefined" && navigator.globalization && navigator.globalization.getLocaleName) {
-                navigator.globalization.getLocaleName(locale => resolve(locale), err => reject(err));
+                navigator.globalization.getLocaleName(locale => resolve(locale.value), err => reject(err));
             } else {
                 // let's try to figure it out as good as we can
                 let possibleLocale = require("locale2");
